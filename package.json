@@ -4,6 +4,7 @@
   "description": "Practice okta",
   "main": "index.js",
   "scripts": {
+    "start" : "nodemon --exec babel-node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "David Isakson",
@@ -17,5 +18,12 @@
     "express-session": "^1.16.2",
     "njwt": "^1.0.0",
     "nnode": "^0.3.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "nodemon": "^2.0.3"
   }
 }
